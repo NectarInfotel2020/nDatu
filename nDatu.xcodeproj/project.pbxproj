@@ -3,18 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C5B529BE6DC6B52F84F496E /* Pods_nDatu_nDatuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C1D049450DFE1FD6BF7A00 /* Pods_nDatu_nDatuUITests.framework */; };
+		5ADD197BC620A80C1C1783E0 /* Pods_nDatu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A782C5E65A677AA4046FA6DD /* Pods_nDatu.framework */; };
 		7B4B20272446C4C100F756C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B20262446C4C100F756C2 /* AppDelegate.swift */; };
 		7B4B20292446C4C100F756C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B20282446C4C100F756C2 /* SceneDelegate.swift */; };
-		7B4B202B2446C4C100F756C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B202A2446C4C100F756C2 /* ViewController.swift */; };
 		7B4B202E2446C4C100F756C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B202C2446C4C100F756C2 /* Main.storyboard */; };
 		7B4B20302446C4C500F756C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B202F2446C4C500F756C2 /* Assets.xcassets */; };
 		7B4B20332446C4C500F756C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B20312446C4C500F756C2 /* LaunchScreen.storyboard */; };
 		7B4B203E2446C4C600F756C2 /* nDatuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B203D2446C4C600F756C2 /* nDatuTests.swift */; };
 		7B4B20492446C4C600F756C2 /* nDatuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B20482446C4C600F756C2 /* nDatuUITests.swift */; };
+		7B4B20572446CDE100F756C2 /* RegisterOrgVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B20562446CDE100F756C2 /* RegisterOrgVC.swift */; };
+		7B4B20592446CDFB00F756C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B20582446CDFB00F756C2 /* LoginViewController.swift */; };
+		7B4B205F2446CEAD00F756C2 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B205D2446CEAD00F756C2 /* CustomLabel.swift */; };
+		7B4B20602446CEAD00F756C2 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B205E2446CEAD00F756C2 /* CustomButton.swift */; };
+		7B4B20672446CEDC00F756C2 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B20622446CEDB00F756C2 /* Singleton.swift */; };
+		7B4B20682446CEDC00F756C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B20632446CEDB00F756C2 /* Constants.swift */; };
+		7B4B20692446CEDC00F756C2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B20642446CEDC00F756C2 /* Extensions.swift */; };
+		7B4B206A2446CEDC00F756C2 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B20652446CEDC00F756C2 /* Utility.swift */; };
+		7B4B206B2446CEDC00F756C2 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B20662446CEDC00F756C2 /* WebServices.swift */; };
+		7B4C2D0824498ED00015E18D /* MyTasksCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C2D0724498ED00015E18D /* MyTasksCustomCell.swift */; };
+		7B5132ED2449AEBF001ED4CB /* lato in Resources */ = {isa = PBXBuildFile; fileRef = 7B5132EC2449AEBF001ED4CB /* lato */; };
+		7B9A412D244730C100B2AD17 /* AssignTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9A412C244730C100B2AD17 /* AssignTaskViewController.swift */; };
+		7B9A412E24473AEB00B2AD17 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B206D2446FB2700F756C2 /* DashboardVC.swift */; };
+		7BB323EF24485CE400629A9A /* MyTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB323EE24485CE400629A9A /* MyTasksViewController.swift */; };
+		7BB323F1244877D600629A9A /* CustomImagePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BB323F0244877D500629A9A /* CustomImagePicker.xib */; };
+		7BB323F5244882CC00629A9A /* CustomImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB323F4244882CC00629A9A /* CustomImagePicker.swift */; };
+		855E19EEE5B5AD17E0BAF254 /* Pods_nDatuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06E06F6535AE4A7E3716312 /* Pods_nDatuTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14C1D049450DFE1FD6BF7A00 /* Pods_nDatu_nDatuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nDatu_nDatuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F2D05E53840CF5620CBEE8 /* Pods-nDatuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nDatuTests.debug.xcconfig"; path = "Target Support Files/Pods-nDatuTests/Pods-nDatuTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B4B20232446C4C100F756C2 /* nDatu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nDatu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4B20262446C4C100F756C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B4B20282446C4C100F756C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7B4B202A2446C4C100F756C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B4B202D2446C4C100F756C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B4B202F2446C4C500F756C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B4B20322446C4C500F756C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +68,29 @@
 		7B4B20442446C4C600F756C2 /* nDatuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nDatuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4B20482446C4C600F756C2 /* nDatuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nDatuUITests.swift; sourceTree = "<group>"; };
 		7B4B204A2446C4C600F756C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B4B20562446CDE100F756C2 /* RegisterOrgVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterOrgVC.swift; sourceTree = "<group>"; };
+		7B4B20582446CDFB00F756C2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7B4B205D2446CEAD00F756C2 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		7B4B205E2446CEAD00F756C2 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		7B4B20622446CEDB00F756C2 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		7B4B20632446CEDB00F756C2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7B4B20642446CEDC00F756C2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7B4B20652446CEDC00F756C2 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		7B4B20662446CEDC00F756C2 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		7B4B206D2446FB2700F756C2 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		7B4C2D0724498ED00015E18D /* MyTasksCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTasksCustomCell.swift; sourceTree = "<group>"; };
+		7B5132EC2449AEBF001ED4CB /* lato */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lato; sourceTree = "<group>"; };
+		7B9A412C244730C100B2AD17 /* AssignTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignTaskViewController.swift; sourceTree = "<group>"; };
+		7BB323EE24485CE400629A9A /* MyTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTasksViewController.swift; sourceTree = "<group>"; };
+		7BB323F0244877D500629A9A /* CustomImagePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomImagePicker.xib; sourceTree = "<group>"; };
+		7BB323F4244882CC00629A9A /* CustomImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImagePicker.swift; sourceTree = "<group>"; };
+		8251CAD0A549017818D6717A /* Pods-nDatu-nDatuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nDatu-nDatuUITests.release.xcconfig"; path = "Target Support Files/Pods-nDatu-nDatuUITests/Pods-nDatu-nDatuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A06E06F6535AE4A7E3716312 /* Pods_nDatuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nDatuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A782C5E65A677AA4046FA6DD /* Pods_nDatu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nDatu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEECDB991F08A5E7BFD065B /* Pods-nDatu-nDatuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nDatu-nDatuUITests.debug.xcconfig"; path = "Target Support Files/Pods-nDatu-nDatuUITests/Pods-nDatu-nDatuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7F9201C55739FAF050B7D61 /* Pods-nDatu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nDatu.debug.xcconfig"; path = "Target Support Files/Pods-nDatu/Pods-nDatu.debug.xcconfig"; sourceTree = "<group>"; };
+		D3A5DF336F42ED177403F30C /* Pods-nDatuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nDatuTests.release.xcconfig"; path = "Target Support Files/Pods-nDatuTests/Pods-nDatuTests.release.xcconfig"; sourceTree = "<group>"; };
+		E74E26B91CC4AEBA41E1719C /* Pods-nDatu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nDatu.release.xcconfig"; path = "Target Support Files/Pods-nDatu/Pods-nDatu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ADD197BC620A80C1C1783E0 /* Pods_nDatu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				855E19EEE5B5AD17E0BAF254 /* Pods_nDatuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5B529BE6DC6B52F84F496E /* Pods_nDatu_nDatuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +128,8 @@
 				7B4B203C2446C4C600F756C2 /* nDatuTests */,
 				7B4B20472446C4C600F756C2 /* nDatuUITests */,
 				7B4B20242446C4C100F756C2 /* Products */,
+				F826B015C6733C90CCF265A3 /* Pods */,
+				E4E7801C0EDC7A60B9A1D61F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +146,12 @@
 		7B4B20252446C4C100F756C2 /* nDatu */ = {
 			isa = PBXGroup;
 			children = (
-				7B4B20262446C4C100F756C2 /* AppDelegate.swift */,
-				7B4B20282446C4C100F756C2 /* SceneDelegate.swift */,
-				7B4B202A2446C4C100F756C2 /* ViewController.swift */,
-				7B4B202C2446C4C100F756C2 /* Main.storyboard */,
+				7B5132EB2449AE74001ED4CB /* Custom Fonts */,
+				7B4B206C2446CEFB00F756C2 /* Appdelegate */,
+				7B4B20612446CEC500F756C2 /* Common Utility Classes */,
+				7B4B205C2446CE9000F756C2 /* Custom Classes */,
+				7B4B205B2446CE6700F756C2 /* Storyboard */,
+				7B4B205A2446CE0A00F756C2 /* ViewControllers */,
 				7B4B202F2446C4C500F756C2 /* Assets.xcassets */,
 				7B4B20312446C4C500F756C2 /* LaunchScreen.storyboard */,
 				7B4B20342446C4C500F756C2 /* Info.plist */,
@@ -128,6 +177,114 @@
 			path = nDatuUITests;
 			sourceTree = "<group>";
 		};
+		7B4B205A2446CE0A00F756C2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7B9A412B2447309100B2AD17 /* Task Module */,
+				7B9A412A2447308200B2AD17 /* Dashboard */,
+				7B9A41292447306200B2AD17 /* Login & Splash Screen */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7B4B205B2446CE6700F756C2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7B4B202C2446C4C100F756C2 /* Main.storyboard */,
+				7BB323F0244877D500629A9A /* CustomImagePicker.xib */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		7B4B205C2446CE9000F756C2 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7B4B205E2446CEAD00F756C2 /* CustomButton.swift */,
+				7B4B205D2446CEAD00F756C2 /* CustomLabel.swift */,
+				7BB323F4244882CC00629A9A /* CustomImagePicker.swift */,
+			);
+			path = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		7B4B20612446CEC500F756C2 /* Common Utility Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7B4B20632446CEDB00F756C2 /* Constants.swift */,
+				7B4B20642446CEDC00F756C2 /* Extensions.swift */,
+				7B4B20622446CEDB00F756C2 /* Singleton.swift */,
+				7B4B20652446CEDC00F756C2 /* Utility.swift */,
+				7B4B20662446CEDC00F756C2 /* WebServices.swift */,
+			);
+			path = "Common Utility Classes";
+			sourceTree = "<group>";
+		};
+		7B4B206C2446CEFB00F756C2 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7B4B20262446C4C100F756C2 /* AppDelegate.swift */,
+				7B4B20282446C4C100F756C2 /* SceneDelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		7B5132EB2449AE74001ED4CB /* Custom Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7B5132EC2449AEBF001ED4CB /* lato */,
+			);
+			path = "Custom Fonts";
+			sourceTree = "<group>";
+		};
+		7B9A41292447306200B2AD17 /* Login & Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				7B4B20562446CDE100F756C2 /* RegisterOrgVC.swift */,
+				7B4B20582446CDFB00F756C2 /* LoginViewController.swift */,
+			);
+			path = "Login & Splash Screen";
+			sourceTree = "<group>";
+		};
+		7B9A412A2447308200B2AD17 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				7B4B206D2446FB2700F756C2 /* DashboardVC.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		7B9A412B2447309100B2AD17 /* Task Module */ = {
+			isa = PBXGroup;
+			children = (
+				7B9A412C244730C100B2AD17 /* AssignTaskViewController.swift */,
+				7BB323EE24485CE400629A9A /* MyTasksViewController.swift */,
+				7B4C2D0724498ED00015E18D /* MyTasksCustomCell.swift */,
+			);
+			path = "Task Module";
+			sourceTree = "<group>";
+		};
+		E4E7801C0EDC7A60B9A1D61F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A782C5E65A677AA4046FA6DD /* Pods_nDatu.framework */,
+				14C1D049450DFE1FD6BF7A00 /* Pods_nDatu_nDatuUITests.framework */,
+				A06E06F6535AE4A7E3716312 /* Pods_nDatuTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F826B015C6733C90CCF265A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7F9201C55739FAF050B7D61 /* Pods-nDatu.debug.xcconfig */,
+				E74E26B91CC4AEBA41E1719C /* Pods-nDatu.release.xcconfig */,
+				BCEECDB991F08A5E7BFD065B /* Pods-nDatu-nDatuUITests.debug.xcconfig */,
+				8251CAD0A549017818D6717A /* Pods-nDatu-nDatuUITests.release.xcconfig */,
+				37F2D05E53840CF5620CBEE8 /* Pods-nDatuTests.debug.xcconfig */,
+				D3A5DF336F42ED177403F30C /* Pods-nDatuTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B4B204D2446C4C600F756C2 /* Build configuration list for PBXNativeTarget "nDatu" */;
 			buildPhases = (
+				2F6303577A4AB7EEBFEAD79B /* [CP] Check Pods Manifest.lock */,
 				7B4B201F2446C4C100F756C2 /* Sources */,
 				7B4B20202446C4C100F756C2 /* Frameworks */,
 				7B4B20212446C4C100F756C2 /* Resources */,
+				45D709078A76EE9CB698AA41 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +311,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B4B20502446C4C600F756C2 /* Build configuration list for PBXNativeTarget "nDatuTests" */;
 			buildPhases = (
+				AF3315F1BAA30C617E611091 /* [CP] Check Pods Manifest.lock */,
 				7B4B20352446C4C600F756C2 /* Sources */,
 				7B4B20362446C4C600F756C2 /* Frameworks */,
 				7B4B20372446C4C600F756C2 /* Resources */,
@@ -170,9 +330,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B4B20532446C4C600F756C2 /* Build configuration list for PBXNativeTarget "nDatuUITests" */;
 			buildPhases = (
+				D5C2997123A7BAA6DB3B81D1 /* [CP] Check Pods Manifest.lock */,
 				7B4B20402446C4C600F756C2 /* Sources */,
 				7B4B20412446C4C600F756C2 /* Frameworks */,
 				7B4B20422446C4C600F756C2 /* Resources */,
+				F6B540DFAA3065BE5FA47412 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +394,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5132ED2449AEBF001ED4CB /* lato in Resources */,
 				7B4B20332446C4C500F756C2 /* LaunchScreen.storyboard in Resources */,
 				7B4B20302446C4C500F756C2 /* Assets.xcassets in Resources */,
+				7BB323F1244877D600629A9A /* CustomImagePicker.xib in Resources */,
 				7B4B202E2446C4C100F756C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +418,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F6303577A4AB7EEBFEAD79B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nDatu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45D709078A76EE9CB698AA41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nDatu/Pods-nDatu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nDatu/Pods-nDatu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nDatu/Pods-nDatu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF3315F1BAA30C617E611091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nDatuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5C2997123A7BAA6DB3B81D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nDatu-nDatuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B540DFAA3065BE5FA47412 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nDatu-nDatuUITests/Pods-nDatu-nDatuUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nDatu-nDatuUITests/Pods-nDatu-nDatuUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nDatu-nDatuUITests/Pods-nDatu-nDatuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7B4B201F2446C4C100F756C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B4B202B2446C4C100F756C2 /* ViewController.swift in Sources */,
+				7B4B206A2446CEDC00F756C2 /* Utility.swift in Sources */,
+				7B9A412E24473AEB00B2AD17 /* DashboardVC.swift in Sources */,
+				7B4B20572446CDE100F756C2 /* RegisterOrgVC.swift in Sources */,
+				7B4B20692446CEDC00F756C2 /* Extensions.swift in Sources */,
+				7B9A412D244730C100B2AD17 /* AssignTaskViewController.swift in Sources */,
+				7BB323EF24485CE400629A9A /* MyTasksViewController.swift in Sources */,
+				7B4B206B2446CEDC00F756C2 /* WebServices.swift in Sources */,
+				7B4B20672446CEDC00F756C2 /* Singleton.swift in Sources */,
+				7B4B205F2446CEAD00F756C2 /* CustomLabel.swift in Sources */,
+				7B4C2D0824498ED00015E18D /* MyTasksCustomCell.swift in Sources */,
+				7B4B20602446CEAD00F756C2 /* CustomButton.swift in Sources */,
 				7B4B20272446C4C100F756C2 /* AppDelegate.swift in Sources */,
+				7B4B20592446CDFB00F756C2 /* LoginViewController.swift in Sources */,
 				7B4B20292446C4C100F756C2 /* SceneDelegate.swift in Sources */,
+				7B4B20682446CEDC00F756C2 /* Constants.swift in Sources */,
+				7BB323F5244882CC00629A9A /* CustomImagePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +712,7 @@
 		};
 		7B4B204E2446C4C600F756C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F9201C55739FAF050B7D61 /* Pods-nDatu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +731,7 @@
 		};
 		7B4B204F2446C4C600F756C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E74E26B91CC4AEBA41E1719C /* Pods-nDatu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +750,7 @@
 		};
 		7B4B20512446C4C600F756C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F2D05E53840CF5620CBEE8 /* Pods-nDatuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +773,7 @@
 		};
 		7B4B20522446C4C600F756C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A5DF336F42ED177403F30C /* Pods-nDatuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +796,7 @@
 		};
 		7B4B20542446C4C600F756C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEECDB991F08A5E7BFD065B /* Pods-nDatu-nDatuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +817,7 @@
 		};
 		7B4B20552446C4C600F756C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8251CAD0A549017818D6717A /* Pods-nDatu-nDatuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
